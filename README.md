@@ -1,8 +1,5 @@
 # Solução de Microsserviços com .NET e Oracle
 
-token
-
-
 Este projeto foi desenvolvido para atender aos requisitos de uma arquitetura de microsserviços, demonstrando a separação de responsabilidades, comunicação entre serviços, persistência em banco de dados Oracle e consumo de APIs públicas com políticas de resiliência.
 
 ## System Design
@@ -43,8 +40,8 @@ Siga os passos abaixo para configurar e executar a solução em seu ambiente loc
 
 #### 1. Clonar o Repositório
 ```bash
-git clone <https://github.com/Felipafaa/checkpoint4dotnet.git>
-cd fiap-microservices-solution
+git clone [https://github.com/Felipafaa/checkpoint4dotnet.git](https://github.com/Felipafaa/checkpoint4dotnet.git)
+cd checkpoint4dotnet
 ```
 
 #### 2. Configurar Variáveis de Ambiente
