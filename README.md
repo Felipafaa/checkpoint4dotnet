@@ -12,23 +12,23 @@ A arquitetura da solução é composta por uma aplicação front-end (MVC) que c
 ```mermaid
 graph TD
     subgraph Browser
-        A[Aplicação MVC <br> (Interface do Usuário)]
+        A[Aplicacao MVC <br> (Interface do Usuario)]
     end
 
-    subgraph "Microsserviços (Backend)"
+    subgraph "Microsservicos (Backend)"
         B[WebAPI de Produtos <br> (ProductApi)]
-        C[WebAPI de Cotações <br> (QuotationApi)]
+        C[WebAPI de Cotacoes <br> (QuotationApi)]
     end
 
     subgraph "Fontes de Dados"
         D[(Banco de Dados Oracle)]
-        E[API Pública de Cotações <br> (AwesomeAPI)]
+        E[API Publica de Cotacoes <br> (AwesomeAPI)]
     end
 
-    A --"Requisições HTTP"--> B
-    A --"Requisições HTTP"--> C
+    A --"Requisicoes HTTP"--> B
+    A --"Requisicoes HTTP"--> C
     B --"Leitura/Escrita via EF Core"--> D
-    C --"Requisição HTTP com Polly"--> E
+    C --"Requisicao HTTP com Polly"--> E
 ```
 
 ## Pré-requisitos
@@ -43,7 +43,7 @@ Siga os passos abaixo para configurar e executar a solução em seu ambiente loc
 
 #### 1. Clonar o Repositório
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO_PUBLICO>
+git clone <https://github.com/Felipafaa/checkpoint4dotnet.git>
 cd fiap-microservices-solution
 ```
 
