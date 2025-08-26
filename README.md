@@ -1,5 +1,8 @@
 # Solução de Microsserviços com .NET e Oracle
 
+token
+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
+
 Este projeto foi desenvolvido para atender aos requisitos de uma arquitetura de microsserviços, demonstrando a separação de responsabilidades, comunicação entre serviços, persistência em banco de dados Oracle e consumo de APIs públicas com políticas de resiliência.
 
 ## System Design
